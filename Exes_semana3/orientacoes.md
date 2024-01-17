@@ -16,17 +16,17 @@
 4. Receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. Calcule e imprima o consumo médio em km/l.
 
 5. Escreva um programa que calcule o salário líquido. Lembrando de declarar o salário bruto e o percentual de desconto do Imposto de Renda.
-- Renda até R$ 1.903,98: isento de imposto de renda;
-- Renda entre R$ 1.903,99 e R$ 2.826,65: alíquota de 7,5%;
-- Renda entre R$ 2.826,66 e R$ 3.751,05: alíquota de 15%;
-- Renda entre R$ 3.751,06 e R$ 4.664,68: alíquota de 22,5%;
-- Renda acima de R$ 4.664,68: alíquota máxima de 27,5%.
+  - Renda até R$ 1.903,98: isento de imposto de renda;
+  - Renda entre R$ 1.903,99 e R$ 2.826,65: alíquota de 7,5%;
+  - Renda entre R$ 2.826,66 e R$ 3.751,05: alíquota de 15%;
+  - Renda entre R$ 3.751,06 e R$ 4.664,68: alíquota de 22,5%;
+  - Renda acima de R$ 4.664,68: alíquota máxima de 27,5%.
 
 7. Escreva um programa que calcule o tempo de uma viagem. Faça um comparativo do mesmo percurso de avião, carro e ônibus.
 Levando em consideração:
-- avião = 600 km/h
-- carro = 100 km/h
-- ônibus = 80 km/h
+  - avião = 600 km/h
+  - carro = 100 km/h
+  - ônibus = 80 km/h
 
 9. Solicite ao usuário o peso em kg e a altura em metros. Calcule e imprima o Índice de Massa Corporal (IMC) usando a fórmula:
 IMC = peso / (altura x altura)
