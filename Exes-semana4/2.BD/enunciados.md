@@ -1,8 +1,8 @@
-# Exercícios Banco de Dados - semana 4
+## Exercícios Banco de Dados - semana 4
 
-Baseado nos exercícios propostos de Orientação à Objeto e o exercício desenvolvido. Vamos criar agora o banco de dados do exercício escolhido.
+# Baseado nos exercícios propostos de Orientação à Objeto e o exercício desenvolvido. Vamos criar agora o banco de dados do exercício escolhido.
 
-1. Exercício Gerenciamento Biblioteca:
+1. **Exercício Gerenciamento Biblioteca:**
 
     Criação das Tabelas:
     - Utilizando SQL, crie as tabelas necessárias para armazenar as informações do sistema. Certifique-se de definir as chaves primárias e estrangeiras conforme apropriado.
@@ -21,7 +21,7 @@ Baseado nos exercícios propostos de Orientação à Objeto e o exercício desen
     Atualizações e Exclusões:
     - Escreva consultas SQL para atualizar e excluir registros do banco de dados, por exemplo, para marcar um livro como devolvido ou remover um autor.
 
-2. Exercício Gerenciamento Mercado:
+2. **Exercício Gerenciamento Mercado:**
 
     Criação das Tabelas:
     - Utilizando SQL, crie as tabelas necessárias para armazenar as informações do sistema. Defina as chaves primárias e estrangeiras conforme apropriado.
