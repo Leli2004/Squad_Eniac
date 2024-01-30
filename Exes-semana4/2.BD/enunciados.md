@@ -1,6 +1,6 @@
-## Exercícios Banco de Dados - semana 4
+# Exercícios Banco de Dados - semana 4
 
-# Baseado nos exercícios propostos de Orientação à Objeto e o exercício desenvolvido. Vamos criar agora o banco de dados do exercício escolhido.
+### Baseado nos exercícios propostos de Orientação à Objeto e o exercício desenvolvido. Vamos criar agora o banco de dados do exercício escolhido.
 
 1. **Exercício Gerenciamento Biblioteca:**
 
