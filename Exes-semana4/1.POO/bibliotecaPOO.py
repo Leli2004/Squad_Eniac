@@ -1,9 +1,9 @@
 from abc import abstractmethod #import para tornar a classe abstrata 
-
+'''
 import sqlite3 # import para usar o dbeaver
 conexao = sqlite3.connect('bd')  # nome do arquivo criado no Dbeaver
 cursor = conexao.cursor()
-
+'''
 class Livro:
     lista_genero = [] #lista global para armazenar os generos
     livros_disponiveis = [] # lista global para armazenar os livros disponiveis
