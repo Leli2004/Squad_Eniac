@@ -9,7 +9,16 @@ class Livro:
         self.genero = genero
         self.quantidade_disponivel = 10
 
-    def adicionarLivro(self, id, autor, genero):
+    def adicionarLivro(self, id, autor, titulo,editora, genero, quantidade_disponivel):
+        self.id = id
+    
+    def excluirLivro(self, id, autor, genero):
+        self.id = id
+
+    def editarLivroAdicionado(self, id):
+        self.id = id
+    
+    def consultarLivro(self, id, autor, genero):
         self.id = id
 
 class Usuario:
@@ -18,12 +27,13 @@ class Usuario:
         self.nome = nome
         self.telefone = telefone
         self.nacionalidade = nacionalidade
-
-    def emprestaLivro(self, id, ):
+    
+    def emprestarLivro(self, id, ):
         self.id = id
     
-    def devolveLivro(self, id, ):
+    def devolverLivro(self, id, ):
         self.id = id
+
 
 class Emprestimo:
     def __init__(self, id, data_emprestimo,data_devolucao, estado_exemplar):
@@ -32,3 +42,11 @@ class Emprestimo:
         self.data_devolucao = data_devolucao
         self.estado_exemplar = disponivel
 
+    def retiradaDeLivro(self, id):
+        self.id = id
+    
+    def devolucaoDeLivro(self, id):
+        self.id = id
+
+    def consultarEmprestimo(self, id):
+        self.id = id
