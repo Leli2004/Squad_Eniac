@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="">
+        <h2>Infomações do personagem</h2><br>
+        <p><img src="{{charactersId.image}}" width="200px"><br><b>Nome: </b>{{charactersId.name}}</p>
+        <p><b>Episódios que aparece:</b> <br>{{charactersId.episode}}</p>
+    </div>
+{% endblock %}
