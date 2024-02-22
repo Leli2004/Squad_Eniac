@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="">
+    <h2>Listando localizações</h2>
+
+    <p><ul><li>Para acessar uma localização específica, clique no ID respectivo.</li></ul></p>
+    
+    <table class="table table-striped table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Type</th>
+            <th>Dimension</th>
+        </tr>
+        {% for location in locations %}
+            <tr>
+                <td><a href="/locations/{{location.id}}" target="_blank">{{location.id}}</a></td>
+                <td>{{location.name}}</td>
+                <td>{{location.type}}</td>
+                <td>{{location.dimension}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}
