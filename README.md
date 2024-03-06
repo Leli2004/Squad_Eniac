@@ -1,5 +1,7 @@
-# Time ENIAC
+## Repositório
+Exercícios do squad Eniac do Bootcamp Back-End Python e Django.
 
+## Time ENIAC
 - Amanda Santana Gama
 - Elisa Libanio
 - Jessica Silva
