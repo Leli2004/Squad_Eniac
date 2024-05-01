@@ -1,0 +1,46 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static '/paginas-gerais/css/style.css' %}">
+        
+<header class="header" >
+    <img src="{% static 'paginas-gerais/img/header-sobre.png' %}" class="header-sobre" alt="Header"/>
+  </header>
+  <div class="margem-pagina">
+        <div class = "conteiner-nosso-trabalho">
+
+        <div>
+        <img src="{% static 'paginas-gerais/img/img5.png' %}" class="img-redimensionada2" alt="Logo"/>
+        </div>
+    
+        <div class="texto-sobre6">
+        <h2>Nosso trabalho</h2> 
+        <a class="alinhar-texto">Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+        Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.
+        Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+        Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.</a>
+        </div>
+        </div>
+
+        <div class="valores">
+        </div>
+
+        
+        <h2 class="centralizar">Equipe Eniac Petz</h2>
+        <a class="text5">Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+            Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.
+            Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+            Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.</a>
+
+           
+           <h2 class="centralizar">Ajude a dar continuidade no nosso trabalho!</h2>
+           
+             <a class="text5">Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+                Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.
+                Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+                Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.
+             </a>
+            </div>
+        
+{% endblock %}

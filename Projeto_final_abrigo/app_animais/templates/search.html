@@ -1,0 +1,6 @@
+<ul>
+    {% for result in results %}
+    <img src="{{ result.foto.url }}" alt="{{ result.imagem }}">
+    <a href="{% url 'animal_detail' result.id %}">{{ result.nome }}</a>
+    {% endfor %}
+</ul>

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block content %}
+    <link rel="stylesheet" type="text/css" href="{% static '/voluntarios/css/style.css' %}">
+    
+    <header class="header" >
+        <img src="{% static '/voluntarios/img/header-voluntario.png' %}" class="header-voluntario" alt="Header"/>
+      </header>
+    
+      
+    <h1>Seja um voluntário e nos ajude a salvar vidas!</h1>
+
+    <div class="conteiner">
+        <div class="inf_voluntariado">
+            <img src="{% static 'voluntarios/img/Component 1.png' %}" alt="">
+        </div>
+
+        <div class="inf_voluntariado">
+            <h4>O que é um voluntário?</h4>
+            <p class="text-voluntario">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ducimus, sequi suscipit esse totam tempore quisquam blanditiis sint omnis, ipsa magni perferendis, facilis aut mollitia voluptatem placeat fugit provident. Beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus quaerat magni, nam temporibus obcaecati, nostrum quis deleniti eveniet minus est necessitatibus nulla sapiente impedit dicta. Ab temporibus corrupti natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vitae sit perferendis iusto blanditiis dolor eum natus ea eveniet minima</p>
+
+            <h4>O que um voluntário faz na Eniac Petz?</h4>
+            <p class="text-voluntario">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ducimus, sequi suscipit esse totam tempore quisquam blanditiis sint omnis, ipsa magni perferendis, facilis aut mollitia voluptatem placeat fugit provident. Beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus quaerat magni, nam temporibus obcaecati, nostrum quis deleniti eveniet minus est necessitatibus nulla sapiente impedit dicta. Ab temporibus corrupti natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vitae sit perferendis iusto blanditiis dolor eum natus ea eveniet minima.</p>
+
+            <h4>O que eu preciso para ser um voluntario na Eniac Petz?</h4>
+            <p class="text-voluntario">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ducimus, sequi suscipit esse totam tempore quisquam blanditiis.</p>
+        </div>
+    </div>
+    
+    <div class="form-voluntario1">
+        <div>
+            <img src="{% static '/voluntarios/img/Component 2.png' %}" alt="" class="form_voluntario">
+        </div>
+        <div class="caixa_fora">
+            <div class="caixa_form">
+                <h2 class="preencha">Preencha aqui seus dados!</h2>
+
+                <form action="" method="POST" id="form">
+                    {% csrf_token %}
+                    <input type="text" name="nome" id="id_nome" placeholder="nome completo" class="nome_form">
+                    <input type="email" name="email" id="id_email" placeholder="email" class="email_form">
+                    <input type="tel" name="telefone" id="id_telefone" placeholder="telefone" class="tel_form">
+                    <input type="text" name="profissão" id="id_profissão" placeholder="profissão" class="prof_form">
+                    <input type="text" name="info_geral" id="id__informações" placeholder="informações adicionais" class="inf_form">
+                    <button type="submit" id="botão_enviar">Quero ser voluntario</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    {% if sucesso %}
+    <script>
+        alert('Seu formulário foi enviado com sucesso.');
+    </script>
+    {% endif %}
+     
+{% endblock %}

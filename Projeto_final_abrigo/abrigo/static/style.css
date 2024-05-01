@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+
+/* Estilos para telas menores que 600px */
+@media screen and (max-width: 600px) {
+    /* Ajuste o tamanho do texto, margens, preenchimentos, etc. */
+    body {
+        font-size: 14px;
+    }
+    /* Mais estilos... */
+}
+
+/* Estilos para telas entre 600px e 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    /* Ajuste o layout, larguras de elementos, etc. */
+    .container {
+        width: 90%;
+    }
+    /* Mais estilos... */
+}
+
+/* Estilos para telas maiores que 900px */
+@media screen and (min-width: 900px) {
+    /* Ajuste para telas maiores... */
+}
+
+footer{
+    background-color: rgba(186, 194, 216, 1);
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha os elementos verticalmente */
+    padding: 10px;
+}
+
+.button{
+    background-color: rgba(1, 0, 72, 1); /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 12px 30px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove a decoração do texto */
+    display: inline-block; /* Exibe o botão como um bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem externa */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    border-radius: 8px; /* Raio de curvatura das bordas do botão */
+}
+
+.container-button{
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+   
+}
+
+.container-footer{
+    display: grid;
+    justify-content: left;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+
+.navbar {
+    background-color: rgba(155, 171, 216, 1);
+    height: 65px;
+}
+
+.img-logo{
+    width:35px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.navbar .container {
+    display: flex;
+    align-items:center;
+    padding: 8px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+   
+}
+
+.navbar-nav .nav-item {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.adocao{
+    width: 50px;
+    height: auto;
+}
+
+.margem{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static '/animais/css/style.css' %}">
+
+  <header class="header" >
+    <img src="{% static '/animais/img/header-adocao.png' %}" class="header-adocao" alt="header-adocao"/>
+  </header>
+  
+  <div class="margem-pagina">
+
+  <h1>Detalhes do Animal</h1>
+
+<div class="detalhes-animal">
+<img src="{{ animal.image.url }}" class ="foto-animal" alt="Imagem do Animal"/>
+
+<div class="detalhes" >
+<p><strong>Nome:</strong> {{ animal.nome }}</p>
+<p><strong>Idade:</strong> {{ animal.idade }}</p>
+<p><strong>Chip:</strong> {{ animal.chip }}</p>
+<p><strong>Sobre:</strong> {{ animal.info_animais }}</p>
+<p><strong>Raça:</strong> {{ animal.raca }}</p>
+<p><strong>Espécie:</strong> {{ animal.especie }}</p>
+<p><strong>Porte:</strong> {{ animal.porte }}</p>
+<p><strong>Sexo:</strong> {{ animal.sexo }}</p>
+<p><a href="{% url 'formulario_animal' pk=animal.pk %}">Quero adotar</a></p> 
+</div>
+</div>
+</div>
+{% endblock %}
+ 
+
+
+

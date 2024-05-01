@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static '/adotantes/css/style.css' %}">
+
+    <!-- Conteúdo específico da adotantes -->
+
+    <div class="form-voluntario1">
+
+        
+    <div class="caixa_fora">
+        <div class="caixa_form">
+            <h2 class="preencha">Preencha aqui seus dados!</h2>
+
+            <form action="" method="POST" id="form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" id="botão_enviar">Quero adotar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {% if sucesso %}
+    <script>
+        alert('Seu formulário foi enviado com sucesso.');
+    </script>
+    {% endif %}
+
+    
+{% endblock %}

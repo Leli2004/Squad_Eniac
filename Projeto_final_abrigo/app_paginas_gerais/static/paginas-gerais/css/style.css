@@ -1,0 +1,194 @@
+body{
+  background-color: rgba(251, 251, 251, 1);
+}
+
+.img-redimensionada{
+    width: 150px;
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+.header-inicial{
+    width: 1100px;
+    height: auto; 
+}
+
+.img-pequena{
+    width: 50px;
+    height: auto;
+    padding: 2px;  
+}
+
+.img-cachorro{
+    width: 200px;
+    height: auto;
+}
+
+.container-passo{
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.passo-a-passo{
+    padding: 45px;
+    display: grid;
+    background-color: white;
+    border: 1px solid rgba(104, 121, 133, 0.635) ;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+.conteiner-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.conteiner-sobre{
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(253, 211, 221, 1);
+    width: 1100px;
+
+}
+
+
+.img-logo2{
+    vertical-align: middle;
+}
+
+.texto-sobre{
+    text-align: right;
+    width: 500px;
+}
+
+.conteiner-sobre2{
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    width: 1100px;
+    padding: 50px;
+}
+
+.conteiner-sobre2 > div{
+    width: 500px;
+    
+}
+
+.texto-sobre2{
+    vertical-align: middle;
+}
+
+.img-logo3{
+  text-align: right;
+}
+
+.dados-inicial{
+    display: flex; /* Exibe os elementos como um flex container */
+    border-radius: 10px;
+    padding: 50px;
+    background-color:rgba(207, 221, 232, 1);
+    width:1100px;
+    justify-content: space-between;
+}
+
+.dados-inicial > div{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.conteiner-nosso-trabalho{
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: center;
+}
+
+
+.texto-sobre6{
+    display: block;
+    text-align: left;
+    width: 500px;
+    padding-top: 90px;
+}
+
+.texto-sobre5{
+    display: block;
+    justify-content: center;
+    
+}
+
+.img-redimensionada2{
+    width: 300px;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.text5{
+   display: flex;
+   justify-content: center;
+   width: 900px; /* Largura do elemento */
+   margin-left: auto;
+   margin-right: auto;
+   color: rgba(62, 62, 62, 1);
+   margin-bottom: 20px;
+}
+
+.valores{
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(253, 211, 221, 1);
+}
+
+.header{
+    
+    background-image: linear-gradient(-360deg,rgba(251, 251, 251, 1),rgba(155, 171, 216, 1));
+    display:flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    margin-bottom: 40px;
+}
+
+.header-sobre{
+    width: 700px;
+    height: auto;
+    
+}
+
+.header-voluntario{
+    width: 700px;
+    height: auto; 
+}
+
+
+
+.carrosel{
+    display: flex; /* Exibe os elementos como um flex container */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+    height: 70px;
+    
+}
+
+.espaçamento{
+ margin-top: 50px;
+}
+
+.alinhar-texto{
+    color: rgba(62, 62, 62, 1);
+}
+
+
+

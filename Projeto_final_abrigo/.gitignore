@@ -1,0 +1,8 @@
+Scripts
+
+.venv/
+env/
+Lib
+
+.DS_Store
+

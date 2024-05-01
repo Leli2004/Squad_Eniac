@@ -1,0 +1,48 @@
+.adocao{
+    width: 50px;
+    height: auto;
+}
+
+.caixa_fora{
+    background-color: rgba(255, 255, 255, 0.281);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 520px;
+    height: 510px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+}
+
+#botão_enviar{
+    background-color: rgba(255, 158, 205, 1);
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    width: 410px;
+    border-radius: 5px;
+
+}
+
+.caixa_form{
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.form-voluntario1{
+    display: flex;
+    background-color: rgba(155, 171, 216, 1);
+    align-items: center;
+    justify-content: center;
+}

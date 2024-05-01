@@ -1,0 +1,83 @@
+{% extends 'base.html'%}
+{% load static %}
+
+
+    {% block content %}
+   
+   <link rel="stylesheet" type="text/css" href="{% static '/paginas-gerais/css/style.css' %}">
+
+   <header class="header" >
+    <img src="{% static '/paginas-gerais/img/header-inicial.png' %}" class="header-inicial" alt="Header"/>
+   </header>
+    
+   <div class="margem-pagina">
+    <h1 class="centralizar">Um jeito fácil de fazer um novo amigo!</h1>
+    
+    <div class = "conteiner-inicio">
+    <div class="conteiner-sobre">
+
+    <div class="img-logo2">
+    <img src="{% static 'paginas-gerais/img/logo.png' %}" class="img-redimensionada" alt="Logo"/>
+    </div>
+
+    <div class="texto-sobre">
+    <h2>Nosso trabalho</h2> 
+    <a>Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+    Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.
+    Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+    Pellentesque leo eros, auctor eget mollis ac, fringilla id justo.</a>
+    </div>
+    </div>
+    </div>
+     
+    <div class="conteiner-inicio">
+    <div class="conteiner-sobre2">
+
+    <div class="texto-sobre2">
+    <h2>Adotar salva vidas!</h2>
+    <a>Lorem ipsum dolor sit amet, consectetur c quam sit amet posuere non magna. 
+    Pellentesque leo eros, auctor eget mollis ac, fringilla 
+    id justo.Lorem ipsum dolor sit amet</a>
+    </div>
+
+    <div class="img-logo3">
+    <img src="{% static 'paginas-gerais/img/img1.png' %}" class="img-cachorro" alt="cachorro"/>
+    </div>
+
+    </div>
+    </div>
+     
+    <div class="conteiner-inicio">
+    <div class="dados-inicial">
+       <div> 40 <br/>  Milhões de animais abandonados no Brasil segundo a OMS.</div>
+       <div> 55% <br/>  Desses animais são cães segundo a Cobasi cuida.</div>
+       <div> 45% <br/> Desses animais são gatos segundo a Cobasi cuida.</div>
+    </div>
+   </div>
+
+    <div>
+   
+    <h2 class="centralizar">Passo a passo da adoção</h2>
+
+    <div class="container-passo">
+    
+    <div class="passo-a-passo">
+    <div>
+    <img src="{% static '/paginas-gerais/img/img3.png' %} "class="img-pequena" alt="Logo"/>
+    <a>Pesquise na nossa aba de adoção e escolha entre os animais disponiveis</a>
+    </div>
+
+    <div>
+    <img src="{% static '/paginas-gerais/img/img2.png' %} "class="img-pequena" alt="Logo"/>
+    <a>Preencha o formulario de adoção e aguarde o contato de um de nossos voluntários</a>
+    </div>
+     
+    <div>
+    <img src="{% static '/paginas-gerais/img/logo.png' %} "class="img-pequena" alt="Logo"/>
+    <a >Adoção aprovada! Combine com o voluntário o dia de retirada!</a>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+{% endblock %}
